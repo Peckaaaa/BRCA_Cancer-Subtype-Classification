@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Outputs / artifacts
+outputs/
+*.png
+benchmark_out/
+
+# Large data (tracked separately / downloaded)
+data/*.csv
+data.zip
+
+# Legacy code kept for reference during migration (safe to delete)
+legacy/
+
+# Scratch
+_nb_*.txt
+
+# OS / IDE
+.DS_Store
+.vscode/

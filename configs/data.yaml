@@ -1,0 +1,12 @@
+# Data location. Paths are relative to the project root (resolved in config.py).
+data_dir: data
+sep: ","
+
+# Omics blocks (features x samples CSVs).
+omics_files:
+  CNV:   BRCA_CNV_aligned.csv
+  Methy: BRCA_Methy_aligned.csv
+  miRNA: BRCA_miRNA_aligned.csv
+  mRNA:  BRCA_mRNA_aligned.csv
+
+labels_file: BRCA_label_num.csv

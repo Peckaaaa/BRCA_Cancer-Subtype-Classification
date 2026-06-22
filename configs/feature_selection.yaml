@@ -1,0 +1,40 @@
+# Feature-selection parameters (CONFIG cell).
+# These are the canonical parameters
+seed: 42
+n_folds: 5
+k: 50            # default feature budget shared by the top-k rankers
+
+fisher:
+  k: 50
+
+l1:
+  k: 50
+  C: 0.1
+  solver: liblinear
+  max_iter: 5000
+
+snr:
+  k_total: 50     # global top-k by multiclass SNR (fair comparison mode)
+
+mrmr:
+  k: 50
+  redundancy_weight: 0.3   # alpha: 1.0=classic mRMR, 0.0=pure MaxRel
+
+relieff:
+  k: 50
+  n_iter: 500
+  k_neighbors: 10
+
+elmo:               # adaptive L1 -> RFE -> IFS -> SBS (chooses its own k)
+  l1_c: 0.1
+  l1_solver: liblinear
+  l1_max_iter: 5000
+  lr_c: 1.0
+  lr_solver: lbfgs
+  lr_max_iter: 5000
+  rfe_step: 0.1
+  ifs_max_k: 150
+  n_inner: 4
+
+pam50:
+  omics: [mRNA]     # match mRNA only; set to null to match all omics blocks

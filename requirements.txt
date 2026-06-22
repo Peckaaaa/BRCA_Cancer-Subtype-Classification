@@ -1,0 +1,13 @@
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+scipy>=1.10
+matplotlib>=3.7
+pyyaml>=6.0
+packaging>=21.0
+# Deep learning (MLP model)
+torch>=2.0
+# Optional: class-imbalance handling in the MLP (SMOTE)
+imbalanced-learn>=0.11
+# Optional: XGBoost model (falls back to RandomForest if absent)
+xgboost>=1.7
