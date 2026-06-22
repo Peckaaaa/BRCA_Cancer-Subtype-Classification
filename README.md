@@ -34,8 +34,6 @@ loader / evaluation stack, so methods are compared on identical folds.
 │   └── pipelines/benchmark.py    # unified CV benchmark (model as a parameter)
 ├── scripts/
 │   ├── run_benchmark.py          # CLI entry point
-│   └── preprocessing/            # R + Python scripts that built the aligned data
-├── notebooks/                    # original exploration notebooks
 ├── outputs/                      # results (CSV summaries + radar charts)
 └── tests/test_smoke.py          # FS × model smoke test on synthetic data
 ```
