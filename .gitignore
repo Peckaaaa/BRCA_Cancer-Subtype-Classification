@@ -24,3 +24,6 @@ _nb_*.txt
 # OS / IDE
 .DS_Store
 .vscode/
+
+# Notebooks (kept locally, not on GitHub)
+notebooks/
