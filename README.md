@@ -22,6 +22,7 @@ loader / evaluation stack, so methods are compared on identical folds.
 │   ├── feature_selection.yaml
 │   └── models.yaml
 ├── data/                         # BRCA_*_aligned.csv + BRCA_label_num.csv
+├── DataPreprocess/               # raw TCGA -> aligned data (R + produce_aligned_dataset.py)
 ├── src/omics/
 │   ├── config.py                 # YAML loading / path resolution
 │   ├── data/loader.py            # load + merge omics, encode labels
@@ -32,8 +33,7 @@ loader / evaluation stack, so methods are compared on identical folds.
 │   ├── models/                   # mlp.py  logreg.py  xgb.py  knn.py  svm.py
 │   ├── evaluation/               # metrics.py  radar.py
 │   └── pipelines/benchmark.py    # unified CV benchmark (model as a parameter)
-├── scripts/
-│   ├── run_benchmark.py          # CLI entry point
+├── scripts/run_benchmark.py      # CLI entry point
 ├── outputs/                      # results (CSV summaries + radar charts)
 └── tests/test_smoke.py          # FS × model smoke test on synthetic data
 ```
