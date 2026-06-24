@@ -100,7 +100,7 @@ Runs every FS × model combination on a tiny synthetic dataset (seconds).
 
 We would like to express our gratitude to the following contributors:
 
-- Project Advisor: [**PhD. Dam Quang Tuan**](tuandq@soict.hust.edu.vn)
+- Project Advisor: [**PhD. Dam Quang Tuan**](https://soict.hust.edu.vn/ts-dam-quang-tuan.html)
 - Team Members:
 
 | Team Members                 |        ID |
