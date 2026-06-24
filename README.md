@@ -1,3 +1,4 @@
+[School of Information and Communications Technology, Viet Nam](https://soict.hust.edu.vn/)<br>
 # BRCA Multi-Omics — Feature Selection & Classification
 
 Reproducible benchmark of **7 feature-selection methods** × **4 classifiers** on the
@@ -94,3 +95,18 @@ PYTHONPATH=src python tests/test_smoke.py
 ```
 
 Runs every FS × model combination on a tiny synthetic dataset (seconds).
+
+## Authors
+
+We would like to express our gratitude to the following contributors:
+
+- Project Advisor: [**PhD. Dam Quang Tuan**](tuandq@soict.hust.edu.vn)
+- Team Members:
+
+| Team Members                 |        ID |
+| ---------------------------- | --------: |
+| Nguyễn Văn Gia Bách | 202416665 |
+| Tô Duy An         | 202416653 |
+| Nguyễn Trần Minh Trí                  | 202400116 |
+| Kiều Việt Sơn                  | 202416750 |
+| Trịnh Tuấn Nam            | 202416729 |
